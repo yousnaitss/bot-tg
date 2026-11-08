@@ -55,9 +55,8 @@ RED_WEEK_START = date(2026, 9, 1)
 # СОЗДАНИЕ БОТА
 # ==========================================
 
-bot = Bot(token=TOKEN)
+bot = Bot(token=BOT_TOKEN)
 dp = Dispatcher()
-
 
 # ==========================================
 # ДНИ
